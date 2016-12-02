@@ -1,8 +1,8 @@
 FROM cirit/oracle-java:latest
 
-MAINTAINER Cagdas Cirit <cagdascirit@gmail.com>
+MAINTAINER DUVIEL
 
-ENV JMETER_VERSION=2.13
+ENV JMETER_VERSION=3.1
 ENV JMETER_HOME=/usr/local/apache-jmeter-${JMETER_VERSION}
 ENV PATH=${JMETER_HOME}/bin:${PATH}
 
